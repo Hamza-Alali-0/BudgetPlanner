@@ -95,14 +95,23 @@ To get a local copy up and running, follow these steps.
 
 Before you begin, ensure you have the following installed:
 
-Java Development Kit (JDK)
-Version 11 or higher is recommended. You can download it from Oracle JDK or OpenJDK .
-JavaFX SDK
-Download the JavaFX SDK from Gluon's OpenJFX and configure it in your IDE or build tool.
-MySQL Database
-Install MySQL Server (version 8.0 or higher). You can download it from MySQL Downloads . Ensure the MySQL server is running and create a database for the project.
-IDE or Text Editor
-Use an IDE like IntelliJ IDEA, Eclipse, or NetBeans, or a text editor like VS Code with appropriate Java extensions.
+- **Java Development Kit (JDK)**  
+  - Version 11 or higher is recommended.  
+  - Download it from [Oracle JDK](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) or [OpenJDK](https://openjdk.org/projects/jdk/11/).
+
+- **JavaFX SDK**  
+  - Download the JavaFX SDK from [Gluon's OpenJFX](https://gluonhq.com/products/javafx/).  
+  - Configure it in your IDE or build tool by adding the JavaFX modules to your project's classpath.
+
+- **MySQL Database**  
+  - Install MySQL Server (version 8.0 or higher).  
+  - Download it from [MySQL Downloads](https://dev.mysql.com/downloads/mysql/).  
+  - Ensure the MySQL server is running, and create a database for the project.
+
+- **IDE or Text Editor**  
+  - Use an IDE like [IntelliJ IDEA](https://www.jetbrains.com/idea/), [Eclipse](https://www.eclipse.org/), or [NetBeans](https://netbeans.apache.org/).  
+  - Alternatively, use a text editor like [VS Code](https://code.visualstudio.com/) with appropriate Java extensions installed.
+
 
 
 ### Installation
@@ -111,17 +120,8 @@ Use an IDE like IntelliJ IDEA, Eclipse, or NetBeans, or a text editor like VS Co
    ```sh
    git clone https://github.com/Hamza-Alali-0/ResolveTrack.git
 
-2. **Install Dependencies**
-   ```sh
-   npm install
-
-3. **Replace your Database URI**
-
- MONGO_URI='your-URI-'
-
-4. **Start the Server**
-   ```sh
-   npm run dev
+2. **Import the sql Database to Xampp(mySql)**:
+  - gestion_depenses.sql.
 
 
 <a id="contact"></a>
