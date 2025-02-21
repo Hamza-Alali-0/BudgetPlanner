@@ -8,7 +8,7 @@
   <h3 align="center">BudgetPlanner</h3>
 
   <p align="center">
-    A Complaint Management System dedicated to providing efficient and transparent solutions for managing claims.
+    A Personal Expense Tracking System dedicated to helping users efficiently manage their finances by recording expenses, setting budgets, and visualizing spending patterns.
   </p>
 </div>
 
@@ -136,7 +136,7 @@ Connect with me:
 - <a href="https://github.com/hamza-alali-0" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
 - <a href="https://www.instagram.com/alalihamza.0/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"></a>
 
-Project Link: [https://github.com/Hamza-Alali-0/Resolvetrack](https://github.com/Hamza-Alali-0/BudgetPlanner)
+Project Link: [https://github.com/Hamza-Alali-0/BudgetPlanner](https://github.com/Hamza-Alali-0/BudgetPlanner)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
    
