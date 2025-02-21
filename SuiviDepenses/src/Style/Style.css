@@ -1,0 +1,201 @@
+/* Root pane styling */
+.root {
+    -fx-background-color: #f8f9fa; /* Light gray background */
+    -fx-padding: 10;
+}
+
+.top-bar {
+    -fx-background-color: #FFFFFF; /* White background for the top bar */
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 10, 0, 0, 0); /* Subtle shadow */
+    -fx-padding: 15px;
+}
+
+/* Summary card styles */
+.summary-card {
+    -fx-background-color: #FFFFFF; /* White background for cards */
+    -fx-background-radius: 10px; /* Rounded corners */
+    -fx-border-color: #E0E0E0; /* Light gray border */
+    -fx-border-radius: 10px; /* Rounded corners for the border */
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 5, 0, 0, 2); /* Subtle shadow */
+}
+
+.summary-card-title {
+    -fx-text-fill: #333333; /* Dark gray text for the title */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+.summary-card-value {
+    -fx-text-fill: #333333; /* Dark gray text for the value */
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+/* Buttons styling */
+.button {
+    -fx-background-color: #007bff; /* Vibrant blue */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10 20;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand;
+}
+#budgetStatusLabel {
+    -fx-text-fill: inherit; /* Inherit color from code */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-opacity: 1; /* Ensure it's not transparent */
+}
+
+.button:hover {
+    -fx-background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* ComboBox styling */
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #ced4da; /* Light gray border */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: #495057; /* Dark gray text */
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: #007bff; /* Vibrant blue */
+    -fx-background-radius: 0 5px 5px 0;
+}
+
+.combo-box .arrow {
+    -fx-background-color: white;
+}
+
+/* TextField styling */
+.text-field {
+    -fx-background-color: white;
+    -fx-border-color: #ced4da; /* Light gray border */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5;
+}
+
+/* DatePicker styling */
+.date-picker {
+    -fx-background-color: white;
+    -fx-border-color: #ced4da; /* Light gray border */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 5;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #007bff; /* Vibrant blue */
+    -fx-background-radius: 0 5px 5px 0;
+}
+
+.date-picker .arrow {
+    -fx-background-color: white;
+}
+
+/* HBox and VBox styling */
+.hbox, .vbox {
+    -fx-spacing: 10;
+    -fx-padding: 10;
+}
+
+/* GridPane styling */
+.grid-pane {
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+    -fx-padding: 10;
+}
+
+/* Alert dialog styling */
+.dialog-pane {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #ced4da; /* Light gray border */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: #495057; /* Dark gray text */
+}
+
+.dialog-pane .button {
+    -fx-background-color: #007bff; /* Vibrant blue */
+    -fx-text-fill: white;
+}
+
+.dialog-pane .button:hover {
+    -fx-background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* In Style.css */
+.label {
+    -fx-text-fill: black; /* Ensure default text color is black */
+}
+
+#budgetStatusLabel {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+/* Chart title styling */
+.chart-title {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #212529; /* Dark gray text */
+}
+/* Button styling */
+.button {
+    -fx-background-radius: 5px;
+    -fx-padding: 5px 10px;
+    -fx-font-size: 12px;
+    -fx-graphic-text-gap: 5px; /* Space between icon and text */
+}
+
+.button:hover {
+    -fx-opacity: 0.8;
+}
+
+/* Icon styling */
+.image-view {
+    -fx-fit-width: 16px; /* Set icon width */
+    -fx-fit-height: 16px; /* Set icon height */
+}
+/* Responsive styles */
+@media (max-width: 800px) {
+    .label {
+        -fx-font-size: 12px;
+    }
+    .button {
+        -fx-font-size: 12px;
+        -fx-padding: 5 10;
+    }
+    .text-field {
+        -fx-font-size: 12px;
+    }
+}
+
+/* styles.css */
+.chart-legend-item {
+    -fx-font-size: 14px;
+}
+
+.chart-legend-item-symbol {
+    -fx-padding: 5px;
+}
+
+/* Define colors for each legend item */
+.chart-legend-item.default-color0.chart-pie { -fx-pie-color: #3498db; }
+.chart-legend-item.default-color1.chart-pie { -fx-pie-color: #2ecc71; }
+.chart-legend-item.default-color2.chart-pie { -fx-pie-color: #e74c3c; }
+.chart-legend-item.default-color3.chart-pie { -fx-pie-color: #9b59b6; }
+.chart-legend-item.default-color4.chart-pie { -fx-pie-color: #f1c40f; }
+.chart-legend-item.default-color5.chart-pie { -fx-pie-color: #1abc9c; }
+.chart-legend-item.default-color6.chart-pie { -fx-pie-color: #e67e22; }

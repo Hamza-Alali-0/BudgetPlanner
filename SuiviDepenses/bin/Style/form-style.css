@@ -1,0 +1,98 @@
+/* General styling for the form */
+.root {
+    -fx-background-color: #f8f9fa; /* Light gray background */
+    -fx-font-family: "Segoe UI", sans-serif;
+}
+
+/* Style for labels */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #212529; /* Dark gray text */
+    -fx-font-weight: bold;
+}
+
+/* Style for text fields */
+.text-field {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #ced4da; /* Light gray border */
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused {
+    -fx-border-color: #007bff; /* Blue border when focused */
+}
+
+/* Style for date picker */
+.date-picker {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ced4da;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #007bff; /* Blue background for the arrow button */
+    -fx-background-radius: 0 5px 5px 0; /* Rounded corners on the right */
+}
+
+.date-picker .arrow-button:hover {
+    -fx-background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for combo box */
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ced4da;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 8px;
+    -fx-font-size: 14px;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: #007bff; /* Blue background for the arrow button */
+    -fx-background-radius: 0 5px 5px 0; /* Rounded corners on the right */
+}
+
+.combo-box .arrow-button:hover {
+    -fx-background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for buttons */
+.button {
+    -fx-background-color: #007bff; /* Blue background */
+    -fx-text-fill: white; /* White text */
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-cursor: hand; /* Pointer cursor */
+}
+
+.button:hover {
+    -fx-background-color: #0056b3; /* Darker blue on hover */
+}
+
+.button:cancel {
+    -fx-background-color: #dc3545; /* Red background for cancel button */
+}
+
+.button:cancel:hover {
+    -fx-background-color: #c82333; /* Darker red on hover */
+}
+
+/* Style for the grid pane */
+.grid-pane {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #ced4da; /* Light gray border */
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 20px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 10, 0, 0, 0); /* Subtle shadow */
+}
