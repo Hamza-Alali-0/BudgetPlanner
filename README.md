@@ -118,7 +118,7 @@ Before you begin, ensure you have the following installed:
 
 1. **Clone the repository**
    ```sh
-   git clone https://github.com/Hamza-Alali-0/ResolveTrack.git
+   git clone https://github.com/Hamza-Alali-0/BudgetPlanne.git
 
 2. **Import the sql Database to Xampp(mySql)**:
   - gestion_depenses.sql.
