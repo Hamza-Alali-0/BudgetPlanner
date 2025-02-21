@@ -43,14 +43,13 @@
 
 BudgetPlanner is a comprehensive personal expense tracking application designed to help you manage your spending habits and monitor your budgets. It enables you to:
 
-Record Expenses: Add new transactions with details such as amount, date, category, and description.
-Manage Transactions: Edit or delete recorded expenses with a confirmation step to prevent accidental removal.
-Organize Spending: Categorize expenses (e.g., Food, Transport, Entertainment, Housing) and filter them by date, category, or amount.
-Budgeting: Set a global monthly budget and individual category budgets, receiving alerts when you approach or exceed your limits.
-Visual Analytics: View detailed dashboards and charts showing expense distributions and monthly trends.
-Income Tracking: Record your income sources and track net savings month-by-month.
-Notifications: Get alerts for budget thresholds and periodic reminders to log your expenses.
-This tool is perfect for anyone looking to gain control over their finances and improve their budgeting habits.
+- **Record Expenses**: Add new transactions with details such as amount, date, category, and description.
+- **Manage Transactions**: Edit or delete recorded expenses, with a confirmation step to prevent accidental removal.
+- **Organize Spending**: Categorize expenses (e.g., Food, Transport, Entertainment, Housing) and filter them by date, category, or amount.
+- **Budgeting**: Set a global monthly budget and individual category budgets, with alerts when you approach or exceed your limits.
+- **Visual Analytics**: View detailed dashboards and charts showing expense distributions and monthly spending trends.
+- **Income Tracking**: Record income sources and track net savings month-by-month.
+- **Notifications**: Receive alerts for budget thresholds and periodic reminders to log your expenses.
 
 ### Built With
 
@@ -95,9 +94,16 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 Before you begin, ensure you have the following installed:
-- Node.js (version 16 or higher)
-- MongoDB (version 5.0 or higher)
-- A modern web browser (e.g., Chrome, Firefox)
+
+Java Development Kit (JDK)
+Version 11 or higher is recommended. You can download it from Oracle JDK or OpenJDK .
+JavaFX SDK
+Download the JavaFX SDK from Gluon's OpenJFX and configure it in your IDE or build tool.
+MySQL Database
+Install MySQL Server (version 8.0 or higher). You can download it from MySQL Downloads . Ensure the MySQL server is running and create a database for the project.
+IDE or Text Editor
+Use an IDE like IntelliJ IDEA, Eclipse, or NetBeans, or a text editor like VS Code with appropriate Java extensions.
+
 
 ### Installation
 
