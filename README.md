@@ -38,40 +38,35 @@
 ## About The Project
 
 <a href="https://github.com/Hamza-Alali-0/BudgetPlanner">
-    <img src="Assets/Home.PNG" alt="Home Page" width="600">
+    <img src="Assets/home.PNG" alt="Home Page" width="600">
 </a>
 
-ResolveTrack is an innovative platform designed to streamline the management of employee and customer complaints. Built with modern web technologies, it offers a seamless and efficient solution for receiving, tracking, and resolving complaints in real-time.
+BudgetPlanner is a comprehensive personal expense tracking application designed to help you manage your spending habits and monitor your budgets. It enables you to:
 
-Here's why ResolveTrack stands out:
-- **Efficient Complaint Management**: Simplifies the process of receiving, categorizing, and resolving complaints.
-- **Real-Time Updates**: Provides real-time status updates for all complaints, ensuring transparency and accountability.
-- **Centralized Dashboard**: Offers a centralized dashboard for easy tracking and management of complaints.
-- **Enhanced User Experience**: Improves the experience for both employees and customers by reducing resolution times and increasing transparency.
-
-ResolveTrack aims to revolutionize complaint management by providing tools like automated categorization, real-time updates, and actionable insights, ensuring faster resolution times and improved operational efficiency.
+Record Expenses: Add new transactions with details such as amount, date, category, and description.
+Manage Transactions: Edit or delete recorded expenses with a confirmation step to prevent accidental removal.
+Organize Spending: Categorize expenses (e.g., Food, Transport, Entertainment, Housing) and filter them by date, category, or amount.
+Budgeting: Set a global monthly budget and individual category budgets, receiving alerts when you approach or exceed your limits.
+Visual Analytics: View detailed dashboards and charts showing expense distributions and monthly trends.
+Income Tracking: Record your income sources and track net savings month-by-month.
+Notifications: Get alerts for budget thresholds and periodic reminders to log your expenses.
+This tool is perfect for anyone looking to gain control over their finances and improve their budgeting habits.
 
 ### Built With
 
 This project is built with the following technologies:
-
-* [![Next.js][Next.js.com]][Next.js-url]
-* [![React][React.com]][React-url]
-* [![Node.js][Node.js.com]][Node.js-url]
-* [![Express][Express.com]][Express-url]
-* [![MongoDB][MongoDB.com]][MongoDB-url]
+* [![Java][Java.com]][Java-url]
+* [![JavaFX][JavaFX.com]][JavaFX-url]
+* [![MySQL][MySQL.com]][MySQL-url]
 
 <!-- Reference-style links for images -->
-[Next.js.com]: https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white
-[Next.js-url]: https://nextjs.org/
-[React.com]: https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black
-[React-url]: https://reactjs.org/
-[Node.js.com]: https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white
-[Node.js-url]: https://nodejs.org/
-[Express.com]: https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white
-[Express-url]: https://expressjs.com/
-[MongoDB.com]: https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white
-[MongoDB-url]: https://www.mongodb.com/
+[Java.com]: https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white
+[Java-url]: https://www.java.com/
+[JavaFX.com]: https://img.shields.io/badge/JavaFX-E24100?style=for-the-badge&logo=java&logoColor=white
+[JavaFX-url]: https://openjfx.io/
+[MySQL.com]: https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white
+[MySQL-url]: https://www.mysql.com/
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -80,14 +75,14 @@ This project is built with the following technologies:
 
 Here are some screenshots of the project:
 
-| ![expanse Page][expanse-screenshot] | ![revenue Page][revenue-screenshot] | ![category Page][Workstation-screenshot] |
+| ![expanse Page][expanse-screenshot] | ![revenue Page][revenue-screenshot] | ![category Page][category-screenshot] |
 |-------------------------------|----------------------------------|----------------------------------|
 | **expanse Page**                 | **revenue Page**                  | **category Page**                  |
 
 <!-- Reference-style links for images -->
 [expanse-screenshot]: Assets/expanse.PNG
-[Complaint-screenshot]: Assets/revenue.PNG
-[Workstation-screenshot]: Assets/category.PNG
+[revenue-screenshot]: Assets/revenue.PNG
+[category-screenshot]: Assets/category.PNG
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
